@@ -28,13 +28,13 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="#none">1Depth</a>
+                <li><a href="javascript:;">1Depth</a>
                     <ul class="depth2">
                         <li><a href="#none">- 2Depth</a></li>
                         <li><a href="#none">- 2Depth</a></li>
                     </ul>
                 </li>
-                <li><a href="#none">1Depth</a>
+                <li><a href="javascript:;">1Depth</a>
                     <ul class="depth2">
                         <li><a href="#none">- 2Depth</a></li>
                         <li><a href="#none">- 2Depth</a></li>

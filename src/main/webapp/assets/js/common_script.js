@@ -3,13 +3,9 @@ function commonInit(){
     // LNB 현재 위치에 맞게 표기
     var currUrl = $(location).attr('pathname');
     var href    = $('#lnb > ul > li').find('a[href="' + currUrl + '"]');
-
-    console.log('currUrl : ' + currUrl);
-
-    console.log('href : ' + href);
-
-    $(href).addClass('on');
+    //$(href).addClass('on');
     $(href).parents('#lnb > ul > li').addClass('on');
+
 
 
     // top userInfo toggle
@@ -33,9 +29,7 @@ function commonInit(){
         } else {
             $(this).addClass("open");
         }
-
         $('.sidebar').animate({width: 'toggle'});
-
     });
 
     // 체크 박스 all

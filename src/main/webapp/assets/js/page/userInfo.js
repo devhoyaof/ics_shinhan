@@ -10,22 +10,22 @@ function userInfoInit(){
 function listCB(object) {
     object.response = {
         list : [
-             {"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
-            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+             {"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스1","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":1,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스2","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":2,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스3","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":3,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스4","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":4,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스5","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":5,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스6","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":6,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스7","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":7,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스8","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":8,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스9","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":9,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스10","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":10,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스11","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":11,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스12","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":12,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스13","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":13,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스14","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":14,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스15","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":15,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
+            ,{"authCode":"NSH_USER","custCode":"ICS","custName":"아이컴시스16","eMail":"","mobileNo":"","registDate":1597285044000,"rownum":16,"systemUserId":"USRCNFRM_00000000452","useFlag":"Y","userId":"kt","userName":"케이티"}
         ]
     };
     if(object.response){
@@ -73,7 +73,7 @@ function reqUserInfoTables(data){
         },
             {
                 orderable: false,
-                targets: 6,
+                targets: [0],
                 render : function(data) {
                     if(data=='' || data=='undefined'){
                         data = '';

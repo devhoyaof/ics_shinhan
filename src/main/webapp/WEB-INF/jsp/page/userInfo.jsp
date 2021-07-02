@@ -105,12 +105,12 @@
                                     <colgroup>
                                         <col width="60px">
                                         <col width="70px">
-                                        <col width="300px">
-                                        <col width="*">
-                                        <col width="*">
                                         <col width="250px">
-                                        <col width="250px">
+                                        <col width="100px">
                                         <col width="150px">
+                                        <col width="200px">
+                                        <col width="200px">
+                                        <col width="110px">
                                         <col width="250px">
                                     </colgroup>
                                     <thead>
