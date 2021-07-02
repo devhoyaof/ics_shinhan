@@ -1303,7 +1303,7 @@ article #lnb > ul > li .depth2 > li > a:before {
 
 .dataTables_wrapper .dataTables_paginate {
     *zoom: 1;
-    float: none;
+    float: none !important;
     margin: 0 auto;
     display: inline-block
 }
@@ -1329,7 +1329,7 @@ article #lnb > ul > li .depth2 > li > a:before {
     float: none !important;
     background-color: #fff0 !important;
     border: 0px !important;
-    line-height: inherit;
+    line-height: inherit !important;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:first-child {
@@ -1509,15 +1509,15 @@ article #lnb > ul > li .depth2 > li > a:before {
     top: 50%;
     left: 50%;
     display: none;
-    width: 580px;
+    width: 580px !important;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    max-height: 740px;
-    overflow: auto;
-    border-radius: 5px;
-    background-color: white;
-    cursor: move;
+    max-height: 740px !important;
+    overflow: auto !important;
+    border-radius: 5px !important;
+    background-color: white !important;
+    cursor: move !important;
 }
 
 .modal_header {
@@ -1531,6 +1531,7 @@ article #lnb > ul > li .depth2 > li > a:before {
     font-size: 15px;
     font-weight: 500;
     letter-spacing: -.03em;
+    margin: 0;
 }
 
 .modal_header h3 {
@@ -1646,4 +1647,34 @@ article #lnb > ul > li .depth2 > li > a:before {
     display: block;
     clear: both;
     content: "";
+}
+
+
+/* datePicker 관련 style */
+.yearselect {
+    float: left;
+}
+.monthselect {
+    float: right;
+}
+.cancelBtn {
+    float: left;
+}
+
+.weekend:first-child {
+    color: red !important;
+}
+.weekend:last-child {
+    color: blue !important;
+}
+.weekend:first-child.off {
+    opacity: 0.7;
+}
+.weekend:last-child.off {
+    opacity: 0.7;
+}
+
+.calendar-time, .drp-selected {
+    height:0;
+    overflow: hidden;
 }

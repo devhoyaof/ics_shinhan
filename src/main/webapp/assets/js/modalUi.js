@@ -16,6 +16,8 @@ function modalUi() {
             marginTop : -layerHeight/2
         });
 
+        $target.draggable();
+
         // create background
         createDim();
 
@@ -81,8 +83,6 @@ function modalUi() {
         $target.css({ display: 'table' });
         $target.attr('class', 'modal open');
 
-        $target.draggable();
-
         // create sizing
         var layerHeight = $target.outerHeight();
         var layerWidth = $target.outerWidth();
@@ -98,6 +98,8 @@ function modalUi() {
         //         //     marginLeft : -layerWidth/2,
         //         //     marginTop : -layerHeight/2
         //         // });
+
+        $target.draggable();
 
         // create background
         createDim();

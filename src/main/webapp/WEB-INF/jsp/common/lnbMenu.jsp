@@ -4,12 +4,17 @@
     <nav>
         <div id="lnb">
             <ul>
-                <li class="on">
+                <li>
                     <a href="javascript:;">1Depth</a>
                     <ul class="depth2">
                         <li>
                             <a href="/dashBoard">
                                 <span>- DashBoard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" onclick="disPop(); return false;">
+                                <span>- DashBoard PopUp</span>
                             </a>
                         </li>
                     </ul>

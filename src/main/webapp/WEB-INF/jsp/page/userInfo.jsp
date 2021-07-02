@@ -17,6 +17,7 @@
     // bilboard chart Init 호출
     $(document).ready(function() {
         userInfoInit();
+        dateRangepicker();
         modalUi();
     });
 </script>
@@ -52,9 +53,11 @@
                             <table class="search">
                                 <colgroup>
                                     <col width="130px">
-                                    <col width="37%">
+                                    <col width="25%">
                                     <col width="130px">
-                                    <col width="37%">
+                                    <col width="25%">
+                                    <col width="130px">
+                                    <col width="25%">
                                 </colgroup>
                                 <tbody>
                                     <tr class="on">
@@ -73,6 +76,10 @@
                                             <div class="ipt_box">
                                                 <input type="text" placeholder="조회명을 입력해주세요." id="searchKeyword" name="code" class=""  onkeypress="return fncKeyPress();">
                                             </div>
+                                        </td>
+                                        <th class="tl">조회 기간</th>
+                                        <td class="tl">
+                                            <input type="text" id="demo" name="demo" value="" />
                                         </td>
                                     </tr>
                                 </tbody>

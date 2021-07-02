@@ -31,6 +31,11 @@ public class MainController {
         return "/page/dashBoard";
     }
 
+    @GetMapping("/dashBoardTemp")
+    public String dashBoardTemp() {
+        return "/page/pop/dashBoardTemp";
+    }
+
     @GetMapping("/userInfo")
     public String userInfo() { return "/page/userInfo"; }
 }

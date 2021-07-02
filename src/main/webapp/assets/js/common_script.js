@@ -1,4 +1,17 @@
 function commonInit(){
+
+    // LNB 현재 위치에 맞게 표기
+    var currUrl = $(location).attr('pathname');
+    var href    = $('#lnb > ul > li').find('a[href="' + currUrl + '"]');
+
+    console.log('currUrl : ' + currUrl);
+
+    console.log('href : ' + href);
+
+    $(href).addClass('on');
+    $(href).parents('#lnb > ul > li').addClass('on');
+
+
     // top userInfo toggle
     $('.user_name_btn').on('click', function(){
         $(this).toggleClass('on');
@@ -106,4 +119,11 @@ function swalAlert(type, msg, swalAction) {
             swalAction();
         }
     });
+}
+
+/* 메뉴클릭시 팝업 */
+function disPop(){
+    var win = window.open("/dashBoardTemp", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,top=500,left=500,width=700,height=1000");
+
+
 }
